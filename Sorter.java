@@ -1,4 +1,7 @@
 public class Sorter{
+    public void sort(int[] arr){
+        insertionSort(arr);
+    }
     private void insertionSort(int arr[]) {
         int n = arr.length;
         for (int i = 1; i < n; ++i) {
