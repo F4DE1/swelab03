@@ -1,6 +1,5 @@
 public class Sorter{
     public static void main(String[] args) {}
-
     void insertionSort(int arr[]) {
         int n = arr.length;
         for (int i = 1; i < n; ++i) {
